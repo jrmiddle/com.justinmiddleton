@@ -1,0 +1,119 @@
+<html>
+	<head>
+		<title>
+			Justin Middleton — Home
+		</title>
+		
+		<style>
+		h3 {margin-left: 60px;}
+		h2 {margin-left:0px;}
+		p {margin-left: 120px;}
+		ul {margin-left:120px;}
+		body {font-family:"Source Sans", "Helvetica Neue", "Helvetica", "Arial";}
+		</style>
+	</head>
+
+	<body>
+		<!-- header -->
+		<h1>Justin Middleton<hr/></h1>
+		<h2>Software</h2>
+		
+		<h3>Delete Files Automator Action</h3>
+
+			<p>
+				Apple's <a href="http://www.apple.com/osx/apps/all.html#automator">Automator</a> is a handy application for basic OSX
+			automation. One thing it doesn't ship with, however, is the ability to delete files. It can move items to the trash, but it can't
+			empty the trash without a little help. <b>Delete Files.action</b> makes file deletion possible, and provides the following:
+			</p>
+			
+			<ul>
+				<li>
+					Standard (delete-only) and secure deletion.
+				</li>
+				<li>
+					Recursive deletion.
+				</li>
+				<li>
+					The ability to delete files only, while leaving directory structures in place.
+				</li>
+				<li>
+					Force deletion of read-only files.
+				</li>
+				<li>
+					Optional confirmation prompting, with custom confirmation text.
+				</li>
+				<li>
+					Some example workflows to get you started.
+				</li>
+			</ul>
+			<p>
+				I first released this back in September of 2005; the current version is the same as what was released then, but should play more nicely
+				with modern OSX installs.  If you have any trouble with it, please contact me.
+			</p>
+
+			<p>
+			<a href="downloads/Delete%20Files%202.dmg">Download</a> | <a href="https://github.com/jrmiddle/Delete-Files">Fork it</a>
+			</p>
+		
+		<h3><a href="https://github.com/jrmiddle/JMPrevNextAccessoryView">JMPrevNextAccessoryView</a></h3>
+
+			<p>
+				<a href="https://github.com/jrmiddle/JMPrevNextAccessoryView">JMPrevNextAccessoryView</a> is a simple inputAccessoryView
+				for UITextFields and UITextViews which provides serial navigation functionality similar to that which Safari provides when
+				navigating form elements. It's easy to integrate, flexible, and its appearance is customizable for each associated field.
+			</p>
+			<p>
+				<a href="https://github.com/jrmiddle/Delete-Files">Fork it</a>
+			</p>
+		<h3><a href="https://github.com/jrmiddle/objcutils">objcutils</a></h3>
+			<p>
+				Various shims and jigs I've created while writing objective-c code, which don't merit their own distros.  Mostly (actually, currently only)
+				categories, including:
+				<ul>
+					<li>
+						NSArray+ArrayUtils: Category on NSArray which provides static and instance methods which, similar to Python list comprehensions,
+						allow one array to be transformed into another, with a function (block) applied to each element in turn.
+					</li>
+					<li>
+						NSArray+StringUtils: Category on NSString with the following methods:
+						<dl>
+							<dt><code>- (BOOL) hasSubString:</code></dt>
+							<dd>Check whether <code>subString</code> is contained within an NSString instance.</dd>
+							
+							<dt><code>- (BOOL) startsWithDigit</code></dt>
+							<dd>Hopefully, self explanatory.</dd>
+							
+							<dt><code>+ (NSString *) stringByJoiningArray:withDelimiterString:;</code></dt>
+							<dd>Easily create an NSString by joining the string representations of elements of an NSArray. Yes, you could argue
+								that this should be a category on NSArray instead. Go for it.</dd>
+							
+							<dt><code>+ (NSString *) stringByJoiningDict:withKeyValueDelimiterString:withPairDelimiterString:</code></dt>
+							<dd>Similar to <code>+stringByJoiningArray:withDelimiterString:</code>, this makes it easy to join the key/value pairs of a dictionary
+								into a string.</dd>
+							
+							<dt><code>+ (NSString*)md5HexDigestString:</code></dt>
+							<dd>Static factory method to create an MD5 digest of the given NSString.</dd>
+							
+							<dt><code>- (NSString *)md5HexDigest</code></dt>
+							<dd>Instance method on NSString to create an MD5 digest.</dd>
+						</dl>
+					</li>
+				</ul>
+				<p>
+				<a href="https://github.com/jrmiddle/objcutils">Fork it</a>
+				</p>
+			</p>
+		<!-- disclaimer-->
+		<p>
+			Disclaimer: All software made available under respective licenses, included with distributions.  All software provided as-is.
+		</p>
+
+		<h2>About Me</h2>
+			<p>
+				I've worked in software, of one form of another, and various roles, since 1995.  I'm a fan of practical solutions and sharing the love. You can find me
+				on <a href="http://www.linkedin.com/in/justinmiddleton">LinkedIn</a>, <a href="https://github.com/jrmiddle">GitHub</a>, and 
+				<a href="http://stackoverflow.com/users/1634315/justin-middleton">StackOverflow</a>.  <a href="justin_middleton_resume.pdf">Here is my r&eacute;sum&eacute;</a>.
+			</p>	
+	</body>
+
+</html>
