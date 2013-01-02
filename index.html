@@ -70,44 +70,6 @@
 			<p>
 				<a href="https://github.com/jrmiddle/Delete-Files">Fork it</a>
 			</p>
-		<h3><a href="https://github.com/jrmiddle/objcutils">objcutils</a></h3>
-			<p>
-				Various shims and jigs I've created while writing objective-c code, which don't merit their own distros.  Mostly (actually, currently only)
-				categories, including:
-				<ul>
-					<li>
-						NSArray+ArrayUtils: Category on NSArray which provides static and instance methods which, similar to Python list comprehensions,
-						allow one array to be transformed into another, with a function (block) applied to each element in turn.
-					</li>
-					<li>
-						NSArray+StringUtils: Category on NSString with the following methods:
-						<dl>
-							<dt><code>- (BOOL) hasSubString:</code></dt>
-							<dd>Check whether <code>subString</code> is contained within an NSString instance.</dd>
-							
-							<dt><code>- (BOOL) startsWithDigit</code></dt>
-							<dd>Hopefully, self explanatory.</dd>
-							
-							<dt><code>+ (NSString *) stringByJoiningArray:withDelimiterString:;</code></dt>
-							<dd>Easily create an NSString by joining the string representations of elements of an NSArray. Yes, you could argue
-								that this should be a category on NSArray instead. Go for it.</dd>
-							
-							<dt><code>+ (NSString *) stringByJoiningDict:withKeyValueDelimiterString:withPairDelimiterString:</code></dt>
-							<dd>Similar to <code>+stringByJoiningArray:withDelimiterString:</code>, this makes it easy to join the key/value pairs of a dictionary
-								into a string.</dd>
-							
-							<dt><code>+ (NSString*)md5HexDigestString:</code></dt>
-							<dd>Static factory method to create an MD5 digest of the given NSString.</dd>
-							
-							<dt><code>- (NSString *)md5HexDigest</code></dt>
-							<dd>Instance method on NSString to create an MD5 digest.</dd>
-						</dl>
-					</li>
-				</ul>
-				<p>
-				<a href="https://github.com/jrmiddle/objcutils">Fork it</a>
-				</p>
-			</p>
 		<!-- disclaimer-->
 		<p>
 			Disclaimer: All software made available under respective licenses, included with distributions.  All software provided as-is.
